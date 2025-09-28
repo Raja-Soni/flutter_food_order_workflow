@@ -1,4 +1,4 @@
-![Cart_on_Menu_page](https://github.com/user-attachments/assets/161c0137-b086-42a3-85b1-1e0906568507)# Local Food Ordering App
+# Local Food Ordering App
 
 A simple **Flutter app** that allows users to order food from local restaurants, simulating a realistic food delivery workflow.
 
