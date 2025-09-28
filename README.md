@@ -75,6 +75,6 @@ The app uses the following dependencies:
 git clone https://github.com/your-username/food_order_workflow.git
 cd food_order_workflow
 
-Install dependencies: flutter pub get
+flutter pub get
 
-Run the app: flutter run
+flutter run
