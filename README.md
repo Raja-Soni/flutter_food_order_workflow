@@ -1,4 +1,4 @@
-# Local Food Ordering App
+![Cart_on_Menu_page](https://github.com/user-attachments/assets/161c0137-b086-42a3-85b1-1e0906568507)# Local Food Ordering App
 
 A simple **Flutter app** that allows users to order food from local restaurants, simulating a realistic food delivery workflow.
 
@@ -27,7 +27,9 @@ This app demonstrates a complete **food ordering workflow**:
 ## 🖼 Screenshot
 <img width="426" height="872" alt="Main_Page" src="https://github.com/user-attachments/assets/34c43e46-8c42-4a19-9372-a0d5d2fcd0cf" />
 <img width="421" height="870" alt="Menu_Items_page" src="https://github.com/user-attachments/assets/efdf746c-5395-4529-b97b-6678ffb9a023" />
-![Cart_on_Menu_page](https://github.com/user-attachments/assets/fa38fbcf-d931-44c1-ae61-c3ceaae63ec0)
+<img width="413" height="859" alt="Cart_on_Menu_page" src="https://github.com/user-attachments/assets/1561e51f-1352-4611-a987-3bc0eeb4d82e" />
+<img width="418" height="865" alt="address" src="https://github.com/user-attachments/assets/3da9dae5-0249-448d-bf62-985751a5077e" />
+<img width="414" height="866" alt="full_image_of_item" src="https://github.com/user-attachments/assets/529f1ddd-3b35-44bf-96a8-bf429b7b39fa" />
 <img width="423" height="872" alt="Checkout_page" src="https://github.com/user-attachments/assets/94bd4ac5-dc88-44a5-a4eb-f2af22359db7" />
 <img width="416" height="876" alt="Payment_method_selection" src="https://github.com/user-attachments/assets/508b2ccc-309d-43a2-9ed2-e592e8f5668a" />
 
