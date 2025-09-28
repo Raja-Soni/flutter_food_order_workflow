@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../AppColor/AppColors.dart';
+
 class AutoScrollingImageSlider extends StatefulWidget {
   final List<String> imageUrls;
   final double height;
@@ -61,7 +63,35 @@ class _AutoScrollingImageSliderState extends State<AutoScrollingImageSlider> {
             padding: const EdgeInsets.symmetric(horizontal: 8.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(16),
-              child: Image.network(widget.imageUrls[index], fit: BoxFit.cover),
+              child: Image.network(
+                widget.imageUrls[index],
+                fit: BoxFit.cover,
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  }
+                  return SizedBox(
+                    width: 80,
+                    height: 80,
+                    child: Center(
+                      child: CircularProgressIndicator(
+                        color: AppColors.circularBarColorBlack,
+                      ),
+                    ),
+                  );
+                },
+                errorBuilder: (context, error, stackTrace) {
+                  return Container(
+                    width: 50,
+                    height: 50,
+                    color: AppColors.errorContainerBackGroundColor,
+                    child: Icon(
+                      Icons.image_not_supported,
+                      color: AppColors.errorIconColor,
+                    ),
+                  );
+                },
+              ),
             ),
           );
         },
