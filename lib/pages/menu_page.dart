@@ -39,10 +39,22 @@ class MenuPage extends StatelessWidget {
           BlocBuilder<MenuBloc, MenuState>(
             builder: (context, state) {
               if (state is MenuLoading) {
-                return const Center(child: CircularProgressIndicator());
+                return Center(
+                  child: CircularProgressIndicator(
+                    color: AppColors.circularBarColorBlack,
+                  ),
+                );
               }
               if (state is MenuError) {
-                return Center(child: Text(state.message));
+                return Center(
+                  child: Text(
+                    state.message,
+                    style: GoogleFonts.montserrat(
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
+                    ),
+                  ),
+                );
               }
               if (state is MenuLoaded) {
                 return ListView.builder(
