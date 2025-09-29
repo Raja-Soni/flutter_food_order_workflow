@@ -43,7 +43,7 @@ This app demonstrates a complete **food ordering workflow**:
 <img width="414" height="866" alt="full_image_of_item" src="https://github.com/user-attachments/assets/529f1ddd-3b35-44bf-96a8-bf429b7b39fa" />
 
 ### Checkout Page
-<img width="423" height="872" alt="Checkout_page" src="https://github.com/user-attachments/assets/94bd4ac5-dc88-44a5-a4eb-f2af22359db7" />
+<img width="421" height="872" alt="Checkout_page" src="https://github.com/user-attachments/assets/8700c1ab-45af-4c22-a119-d99036d865d9" />
 
 ### Payment Method Selection
 <img width="416" height="876" alt="Payment_method_selection" src="https://github.com/user-attachments/assets/508b2ccc-309d-43a2-9ed2-e592e8f5668a" />
