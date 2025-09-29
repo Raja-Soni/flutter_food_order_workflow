@@ -46,11 +46,10 @@ This app demonstrates a complete **food ordering workflow**:
 <img width="421" height="872" alt="Checkout_page" src="https://github.com/user-attachments/assets/8700c1ab-45af-4c22-a119-d99036d865d9" />
 
 ### Payment Method Selection
-<img width="416" height="876" alt="Payment_method_selection" src="https://github.com/user-attachments/assets/508b2ccc-309d-43a2-9ed2-e592e8f5668a" />
+<img width="413" height="870" alt="Payment_method_selection" src="https://github.com/user-attachments/assets/22510f6d-367f-400b-851a-36257c4d60ae" />
 
 ### Order Placed Confirmation
-<img width="419" height="875" alt="Order_placed_confirmation" src="https://github.com/user-attachments/assets/ec87bc38-56bc-499f-8bff-bcd3b168501f" />
-
+<img width="425" height="876" alt="Order_placed_confirmation" src="https://github.com/user-attachments/assets/f3a0a6b0-5f22-4a32-be9f-a59888f0dc9d" />
 
 ## 🛠 Dependencies
 
