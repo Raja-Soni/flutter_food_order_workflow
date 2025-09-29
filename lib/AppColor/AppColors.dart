@@ -37,7 +37,7 @@ class AppColors {
   static final Color rupeesStringColor = Colors.blue.shade600;
   static final Color materialWidgetColorWhite = Colors.white;
   static final List<Color> checkOutOrderListContainerGradientColor = [
-    Colors.green,
+    Colors.green.shade200,
     Colors.white,
   ];
   static final List<Color> itemCardContainerGradientColor = [
@@ -45,11 +45,11 @@ class AppColors {
     Colors.white,
   ];
   static final List<Color> restaurantNameCheckoutContainerGradientColor = [
-    Colors.blue,
+    Colors.blue.shade200,
     Colors.white,
   ];
   static final List<Color> addressCheckoutContainerGradientColor = [
-    Colors.purple,
+    Colors.purple.shade200,
     Colors.white,
   ];
   static final Color addMoreItemButtonColor = Colors.blue;
